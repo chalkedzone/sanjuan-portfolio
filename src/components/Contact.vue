@@ -13,6 +13,7 @@
     .social-icons a:hover {
         color: #0d6efd;
     }
+    
 </style>
 
 <template>
