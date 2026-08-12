@@ -40,10 +40,10 @@
                             <textarea v-model="message" name="message" class="form-control" rows="5" placeholder="Enter your message" required></textarea>
                         </label>
                     </div>
-                    <div class="form-footer d-flex justify-content-between align-items-center mt-3">
-                        <div class="d-flex justify-content-end mt-2">
+                    <div class="d-flex justify-content-end mt-2">
                             <div ref="recaptchaContainer"></div>
                         </div>
+                    <div class="form-footer d-flex justify-content-between align-items-center mt-3">
                         <button type="submit" class="btn" :disabled="isLoading">
                         {{ isLoading ? 'Sending...' : 'Submit' }}
                         </button>
@@ -65,10 +65,9 @@
 </template>
 
 <script setup>
-    import { ref } from 'vue'
+    import { ref, onMounted, onBeforeUnmount } from 'vue'
     import { Notyf } from 'notyf'
     import 'notyf/notyf.min.css'
-    import { onMounted, onBeforeUnmount } from 'vue'
 
     const notyf = new Notyf()
     const WEB3FORMS_ACCESS_KEY = "051dd95b-74be-4474-a34c-45673020f8e0"
