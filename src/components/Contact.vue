@@ -29,8 +29,7 @@
                         <div class="social-icons">
                             <a href="https://www.facebook.com/enzo.stjohn" id="facebook"><i class="fab fa-facebook"></i></a>
                             <a href="https://www.linkedin.com/in/enrico-lorenzo-san-juan-0384b92b2/" id="linkedin"><i class="fab fa-linkedin"></i></a>
-                            <a href="https://gitlab.com/cbabbage0991" id="gitlab"><i class="fab fa-gitlab"></i></a>
-                            <a href="https://github.com/cbabbage0991" id="github"><i class="fab fa-github"></i></a>
+                            <a href="https://github.com/chalkedzone" id="github"><i class="fab fa-github"></i></a>
                         </div>
                     </div>
                     
