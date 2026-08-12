@@ -40,7 +40,7 @@
                             <textarea v-model="message" name="message" class="form-control" rows="5" placeholder="Enter your message" required></textarea>
                         </label>
                     </div>
-                    <div class="d-flex justify-content-end mt-2">
+                    <div class="d-flex justify-content-start mt-2">
                             <div ref="recaptchaContainer"></div>
                         </div>
                     <div class="form-footer d-flex justify-content-between align-items-center mt-3">
