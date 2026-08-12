@@ -1,3 +1,20 @@
+<style>
+    .social-icons {
+        margin-top: 1rem;
+        display: flex;
+        gap: 1rem;
+    }
+
+    .social-icons a {
+        font-size: 2rem;
+        color: #021D9E;
+    }
+
+    .social-icons a:hover {
+        color: #0d6efd;
+    }
+</style>
+
 <template>
     <section id="contact" class="container-fluid py-5 px-5">
         <h2 class="text-center">Contact Me</h2>
